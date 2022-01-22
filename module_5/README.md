@@ -3,8 +3,7 @@
 - [The Problem and Motivation](#the-problem-and-motivation)
 - [Serialization / Deserialization](#serialization--deserialization)
 - [Integers, Strings, and Hybrid Data Structures](#integers-strings-and-hybrid-data-structures)
-- [Databases](#databases)
-- [Post-credits Scene](#post-credits-scene)
+
 
 ## The Problem and Motivation
 
@@ -94,9 +93,9 @@ After you finish the tasks, consider this open-end question:
 [Read more about serde crate](https://serde.rs/)
 
 
-
-
-
 ### Part 4: Results/Options
 
 Please review the notes from module 3 on result and option, and fix the code in result_option to get all tests to pass.
+
+----
+***ATTENTION: We introduce the third-party crate [serde], but you should not add any additional crates (e.g., do not modify the cargo.toml file) to pass the tests in this primer.***
