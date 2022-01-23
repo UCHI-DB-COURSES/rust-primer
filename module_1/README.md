@@ -324,5 +324,5 @@ Complete the following exercises and put all code in ```solution.rs```. Function
 - Here are some exercises to help you practice the Rust programming concepts introduced in Module 1:
     1. Create a Hello World function (call it hello()) that returns "Hello World!"
     2. Create a function ```is_leap_year(year: i32) -> bool``` that takes an int and determines if that year is a leap year. 
-- Remember, to test these exercises, run ``` cargo build ```
+- Remember, to test these exercises, run ``` cargo test ```
 - You can also complete [the programming of a guessing game tutorial](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html) in the Rust documentation.
