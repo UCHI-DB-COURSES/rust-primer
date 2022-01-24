@@ -1,7 +1,7 @@
 # CrustyDB Walkthough 
 
 The goal of this last module 6 of the warm up is a
-(walkthrough)[https://en.wikipedia.org/wiki/Software_walkthrough] CrustyDB's
+[walkthrough](https://en.wikipedia.org/wiki/Software_walkthrough) CrustyDB's
 codebase. First, this module gives you some direction on how to go about
 exploring the codebase. It asks some questions (Guiding Questions, below) to
 test your knowledge as you make progress. These questions are just for you, you
@@ -13,7 +13,7 @@ will (likely) need to put in practice many times in the future.
 
 ### Guiding Questions
 
-1. Look at the module 1 README to understand crusty-cli. What is the function that actually reads user input? 
+1. Look at the Crusty README end to end example to understand crusty-cli. What is the function that actually reads user input? 
 
 2. Place the following components in the order they occur and identify (on a very high level) the purpose of each: Parser, Executor, Optimizer
 
@@ -21,7 +21,7 @@ will (likely) need to put in practice many times in the future.
     -   Hint: you’ll have to go carefully through the above function and follow through on the different paths it can take to answer this question.
     -   Options: value operations, set operations, query operations, select operations
 
-4. Of the above broad type (answer to Q3), what are all the operators crusty supports? This should be clear if you follow the path of functions that led you to the Q3 answer.
+4. Of the above broad type (answer to Q3), what are all the operators (in a relational algebra sense) that crusty supports? This should be clear if you follow the path of functions that led you to the Q3 answer.
 
 5. Find and look at the rust file associated with a scan (yes, we’re not telling
 you where it is on purpose). Try to figure out how it interfaces with the
